@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* 1.css */
+h2{
+    font-family: 'Arial', sans-serif;
+    font-size: 2.5em;
+    color: #ff6347; /* Tomato color */
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 2px 2px #555555; /* Subtle shadow effect */
+}
+
+p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+    margin: 20px auto;
+    width: 80%;
+    line-height: 1.6;
+    max-width: 700px;
+    background-color: #f0ed37; /* Light background for readability */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: rgb(227, 27, 137);
+    border: 10px solid navy;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+}
+
+.red-piece {
+    background-color: rgb(19, 17, 17);
+}
+
+.yellow-piece {
+    background-color: yellow;
+}
